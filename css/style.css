@@ -24,7 +24,7 @@ nav {
 	max-width: 960px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 30px 10px 20px;
+    padding: 5px 10px 15px;
 }
 
 nav img{
@@ -35,11 +35,11 @@ nav ul{
 	list-style: none;
 	float: right;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 32px;
 }
 nav ul li{
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 21px;
 	font-size: 16px;
 	font-weight: bold;
 	text-transform: capitalize;
@@ -61,12 +61,13 @@ nav ul li:hover {
 	max-width: 960px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 30px 10px 20px;
+    padding: 30px 10px 15px;
 }
 
 .wrapper h1{
 	text-align: center;
 	color: white;
+	padding: 20px 0 0 0;
 }
 h1 {
 	font-size: 60px;
@@ -75,37 +76,48 @@ h1 {
 
 .wrapper .review {
 	font-size: 20px;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-bottom: 20px;
 	color: white;
 	text-align: center;
-}
+	letter-spacing: 1.5px;
+	padding-right: 6px;
 
+}
+.slider{
+	text-align: center;
+	padding: 10px 5px 0 0 ;
+}
 .pros{
 	background-color: #232324;
 }
 
-h2 {
+.experts_title {
 	font-size: 40px;
 	color: white;
 	text-align: center;
-	padding-top: 20px;
-	letter-spacing: 10px;
+	padding-top: 1px;
+	padding-right: 3px;
+	letter-spacing: 6.4px;
 }
 .wrapper .why {
-	font-size: 15px;
+	font-size: 20px;
+	padding-right: 5px;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	color: #d94948;
 	text-align: center;
+	letter-spacing: 1.2px;
 }
 
 .icons {
 	background-color: #232324;
+	padding-top: 10px;
 }
 
 .item {
 	color: white;
+	padding-top: 5px;
 	
 }
 
@@ -119,21 +131,24 @@ h2 {
 .item .description{
 	color: #d94948;
 	font-size: 18px;
-	margin: 5px;	
+	letter-spacing: 0.9px;
 }
 
-.item.name{
+.item .name{
 	font-size: 30px;
-	font-weight: 600;
-	margin: 5px;
+	margin: 4px;
+	letter-spacing: 0.9px;
 }
 
 .experts{
 	background-color: #6cc372;
 }
 
-.subtitle {
+.wrapper .subtitle {
 	text-align: center;
+	letter-spacing: 1.2px;
+	font-size: 20px;
+	padding: 10px 5px 0 0;
 }
 
 .staf{
@@ -143,18 +158,26 @@ h2 {
     margin: 0 1%;
     text-align: center;
     padding-bottom: inherit;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.staf img {
+	padding: 20px 0 20px 0;
 }
 
 .staf_name{
 	color: #61af66;
 	text-transform: capitalize;
 	font-size: 25px;
+	letter-spacing: 0.25px;
 }
 .position{
 	font-size: 18px;
 	color: #e74c3c;
 	text-transform: capitalize;
-	padding: 10px;
+	padding: 10px 0 23px 0;
+	letter-spacing: 0.72px;
 
 }
 
@@ -162,9 +185,7 @@ h2 {
 	padding: 10px 40px;
     background-color: #61af66;
     border-radius: 2px;
-
 }
-
 
 .follow a{
 	text-decoration: none;
@@ -172,17 +193,28 @@ h2 {
 	font-size: 25px;
 	letter-spacing: 5px;
 }
+.infa_2 {
+	background-color: #f0f0f0;
 
-@media screen and (max-width: 620px){
-    .pros .icons .item{
-        float: none;
-        width: 90%;
-        margin: 20px auto;
-    }
+}
 
-    .staf{
-        float: none;
-        width: 90%;
-        margin: 20px auto;
-    }
+.wrapper h2 .works-title {
+	color: #616161;
+}
+
+
+.wrapper .works {
+	color: #61af66;
+	padding-bottom: 20px;
+
+}
+
+
+.works_title {
+	font-size: 40px;
+	color: #616161;
+	text-align: center;
+	padding-top: 1px;
+	padding-right: 3px;
+	letter-spacing: 6.4px;
 }

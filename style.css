@@ -1,0 +1,187 @@
+
+/* ================ HEADER ==================*/
+html{
+	font-family: 'BariolRegular', sans-serif, helvetica;
+}
+
+body, ul, ol, p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+	font-size: 14px;
+	background-color: #f56262;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+	max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 10px 20px;
+}
+
+nav img{
+	margin-top: 20px;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	text-align: center;
+	margin-top: 40px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding:9px 12px;
+}
+
+nav ul li:hover {
+	background-color: black;
+	border-radius: 5px;
+	padding:9px 12px;
+}
+
+.infa{
+	background-color: #eb4f4e;
+	margin: 0 auto;
+}
+
+.wrapper {
+	max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 10px 20px;
+}
+
+.wrapper h1{
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-size: 60px;
+	letter-spacing: 10px;
+}
+
+.wrapper .review {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+.pros{
+	background-color: #232324;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 10px;
+}
+.wrapper .why {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #d94948;
+	text-align: center;
+}
+
+.icons {
+	background-color: #232324;
+}
+
+.item {
+	color: white;
+	
+}
+
+.pros .icons .item {
+	float: left;
+	width: 28%;
+    margin: 0 2.66%;
+    text-align: center;
+}
+
+.item .description{
+	color: #d94948;
+	font-size: 18px;
+	margin: 5px;	
+}
+
+.item.name{
+	font-size: 30px;
+	font-weight: 600;
+	margin: 5px;
+}
+
+.experts{
+	background-color: #6cc372;
+}
+
+.subtitle {
+	text-align: center;
+}
+
+.staf{
+	background-color: white;
+	float: left;
+    width: 23%;
+    margin: 0 1%;
+    text-align: center;
+    padding-bottom: inherit;
+}
+
+.staf_name{
+	color: #61af66;
+	text-transform: capitalize;
+	font-size: 25px;
+}
+.position{
+	font-size: 18px;
+	color: #e74c3c;
+	text-transform: capitalize;
+	padding: 10px;
+
+}
+
+.follow {
+	padding: 10px 40px;
+    background-color: #61af66;
+    border-radius: 2px;
+
+}
+
+
+.follow a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+
+@media screen and (max-width: 620px){
+    .pros .icons .item{
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .staf{
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+    }
+}

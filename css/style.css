@@ -4,9 +4,14 @@ html{
 	font-family: 'BariolRegular', sans-serif, helvetica;
 }
 
-body, ul, ol, p, h1, h2, h3, h4, h5, h6{
+body, ul, li, ol, p, h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+a{
+	text-decoration: none;
 }
 
 header{
@@ -172,13 +177,13 @@ h1 {
 	font-size: 25px;
 	letter-spacing: 0.25px;
 }
+
 .position{
 	font-size: 18px;
 	color: #e74c3c;
 	text-transform: capitalize;
 	padding: 10px 0 23px 0;
 	letter-spacing: 0.72px;
-
 }
 
 .follow {
@@ -193,22 +198,29 @@ h1 {
 	font-size: 25px;
 	letter-spacing: 5px;
 }
+.wrapper_new{
+	max-width: 960px;
+    margin: 0 auto;
+  }
+
+
 .infa_2 {
 	background-color: #f0f0f0;
-
+	border-bottom: 2px solid #d8d8d8;
 }
 
-.wrapper h2 .works-title {
+.wrapper_new h2 .works-title {
 	color: #616161;
 }
 
 
-.wrapper .works {
+.wrapper_new .works {
 	color: #61af66;
+	padding-top: 20px;
 	padding-bottom: 20px;
-
+	text-align: center;
+	font-size: 20px;
 }
-
 
 .works_title {
 	font-size: 40px;
@@ -217,4 +229,136 @@ h1 {
 	padding-top: 1px;
 	padding-right: 3px;
 	letter-spacing: 6.4px;
+}
+
+.slider_2 {
+	padding-bottom: 180px;
+}
+
+
+.wrapper_price{
+	max-width: 960px;
+    margin: 0 auto;
+}
+
+.pricing-grids{
+	background-color: #ffffff;
+}
+
+.price-value{
+	background-color: #ffffff;
+	border-radius: 5px 5px 0 0 ;
+
+}
+
+.price_1{
+width: 30%;
+float: left;
+text-align: center;
+margin-right: 2%;
+position: relative;
+top: -102px;
+}
+
+.price_st{
+position: relative;
+top: -143px;
+
+}
+
+h3{
+	text-transform: capitalize;
+
+}
+
+
+.price-bg ul li {
+	text-align: center;
+	color: #616161;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid white;
+	background-color: #f0f0f0;
+}
+
+.cart{
+	height: 90px;
+	background-color: #616161;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+}
+
+.pricing-grids .cart span {
+
+	color: white;
+	font-weight: bold;
+	font-size: 64.23px;
+	position: absolute;
+	left: 15px;
+	top: 5px;
+	font-family: "Myriad Pro";
+}
+
+ lable {
+	color: white;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.pricing-grids .cart .order{
+	color: #616161;
+	padding: 9px 20px;
+	background-color: white;
+	font-size: 21px;
+	letter-spacing: 1.21px;
+	margin-left: 5px;
+	text-transform: capitalize;
+	border-radius: 2px;
+	position: absolute;
+	top: 25px;
+	left: 170px;
+}
+
+.price_medium{
+	color: #eb4f4e;
+	
+}
+
+.cart_medium{
+	background-color: #eb4f4e;
+}
+.cart_medium .order{
+	color: #eb4f4e;
+}
+
+
+.price_explain{
+	text-align: center;
+	letter-spacing: 1.2px;
+	font-size: 20px;
+	color: black;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.clear{
+clear: both;
+display: block;
+height: 0;
+line-height: 0;
+
+}                
+
+.other_plans{
+	text-align: center;
+    position: relative;
+	top: -50px;
+	color: #eb4f4e;
+	font-size: 20px;
+	
+
 }

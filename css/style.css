@@ -257,6 +257,16 @@ h1 {
 .infa_2 {
 	background-color: #f0f0f0;
 	border-bottom: 2px solid #d8d8d8;
+	padding-bottom: 240px;
+}
+
+
+.slick-dots li button:before{
+	color: red;
+}
+
+.slick-dots li.slick-active button:before{
+	color: green;
 }
 
 .wrapper_new h2 .works-title {

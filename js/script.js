@@ -7,5 +7,13 @@ $(document).ready(function(){
   slidesToScroll: 4,
   arrows: true,
   	  });
+  	  $('.your-slider').slick({
+
+  	  	arrows: true,
+  	  	centerMode: true,
+  	  	centerPadding: '170px',
+  
+
+  	  });
 });
 	

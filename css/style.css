@@ -260,12 +260,18 @@ h1 {
 	padding-bottom: 150px;
 }
 
+.your-class img{
+	padding-left: 20px;
+}
+
 .sign{
 	text-align: center;
 	color: black;
 	font-size: 21px;
 	width: 200px;
+	padding-left: 20px;
 }
+
 
 .slick-next:before{
 	content: "\f105";
@@ -275,6 +281,7 @@ h1 {
 .slick-prev:before{
 	content: "\f104";
 	font: 40px/1 'FontAwesome';
+	
 
 }
 

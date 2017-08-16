@@ -7,13 +7,17 @@ $(document).ready(function(){
   slidesToScroll: 4,
   arrows: true,
   	  });
+
   	  $('.your-slider').slick({
-
+  	  	infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerPadding: '100px',
+  	    centerMode: true,
   	  	arrows: true,
-  	  	centerMode: true,
-  	  	centerPadding: '170px',
+  	  	
+  	  	
   
-
   	  });
 });
 	

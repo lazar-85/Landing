@@ -57,10 +57,6 @@ header::after {
   
 }
 
-
-
-
-
 nav a {
     text-decoration: none;
     color: white;
@@ -244,8 +240,6 @@ h1 {
 	top: 5px;
 }
 
-
-
 .wrapper_new{
 	max-width: 960px;
     margin: 0 auto;
@@ -253,20 +247,53 @@ h1 {
     padding: 30px 10px 15px;
   }
 
+  .wrapper_new_new{
+	max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 10px 15px;
+  }
+
 
 .infa_2 {
 	background-color: #f0f0f0;
 	border-bottom: 2px solid #d8d8d8;
-	padding-bottom: 240px;
+	padding-bottom: 150px;
+}
+
+.sign{
+	text-align: center;
+	color: black;
+	font-size: 21px;
+	width: 200px;
+}
+
+.slick-next:before{
+	content: "\f105";
+	font: 40px/1 'FontAwesome';
+}
+
+.slick-prev:before{
+	content: "\f104";
+	font: 40px/1 'FontAwesome';
+
+}
+
+.slick-prev:before, .slick-next:before{
+   opacity: 1;
+   color: #6cc372;
+}
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
+	opacity: 1;
 }
 
 
 .slick-dots li button:before{
-	color: red;
+	color: #656565;
 }
 
 .slick-dots li.slick-active button:before{
-	color: green;
+	color: #6cc272;
 }
 
 .wrapper_new h2 .works-title {
@@ -274,7 +301,7 @@ h1 {
 }
 
 
-.wrapper_new .works {
+.wrapper_new_new .works {
 	color: #61af66;
 	padding-top: 20px;
 	padding-bottom: 20px;

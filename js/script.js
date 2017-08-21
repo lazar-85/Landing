@@ -11,12 +11,12 @@ $(document).ready(function(){
   	  $('.your-slider').slick({
   	  	infinite: true,
         speed: 300,
-        slidesToShow: 1,
-        centerPadding: '100px',
+        centerPadding: '20px',
+        slidesToShow: 3,
   	    centerMode: true,
   	  	arrows: true,
-  	  	
-  	  	
+  	  	adaptiveHeight: true,
+  	  	 	  	
   
   	  });
 });

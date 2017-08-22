@@ -4,17 +4,7 @@ html {
     font-family: 'BariolRegular', sans-serif, helvetica;
 }
 
-body,
-ul,
-li,
-ol,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -132,7 +122,6 @@ nav ul li:hover {
 
 .your-slider .slick-prev:before,
 .your-slider .slick-next:before {
-    -opacity: 1;
     color: white;
 }
 
@@ -143,7 +132,6 @@ nav ul li:hover {
     border-right: 1px solid #ff9e9c;
     border-bottom: 1px solid #ff9e9c;
     transform: rotate(-40deg);
-    /* Standard syntax */
     position: absolute;
     left: 100%;
     top: 100%;
@@ -157,7 +145,6 @@ nav ul li:hover {
     border-left: 1px solid #ff9e9c;
     border-top: 1px solid #ff9e9c;
     transform: rotate(-40deg);
-    /* Standard syntax */
     position: absolute;
     right: 100%;
     top: 100%;
@@ -169,7 +156,7 @@ nav ul li:hover {
     width: 100%;
     border-radius: 5px;
     margin: 0 auto;
-    box-shadow: 0 10px 0 0px rgba(122, 122, 122, 0.5);
+    -box-shadow: 0 10px 0 0px rgba(122, 122, 122, 0.5);
 }
 
 .img-wrap {
@@ -543,9 +530,46 @@ lable {
     padding: 10px 5px 0 0;
 }
 
-.slider_3 {
+.tw-respond {
+    text-align: justify;
+    margin: 0 auto;
+    display: block;
+    padding-left: 50px;
+    font-size: 21px;
+    color: white;
+    font-style: italic;
+    line-height: 30px;
+    margin-left: 12%;
+}
+
+.tw-respond .e-mail {
+    font-size: 21px;
+    color: black;
+    font-style: italic;
+}
+
+
+.tw_img{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
+
+.your-twitter .slick-next:before {
+    content: "→";
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    color: black;
+}
+
+.your-twitter .slick-prev:before {
+    content: url("../img/next-arrow.png");/*\f137*/
+    font: 40px/1 'FontAwesome';
+    color: black;
+}
+
 
 .footer {
     background-color: #232324;

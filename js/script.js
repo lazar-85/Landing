@@ -11,7 +11,7 @@ $(document).ready(function(){
   	  $('.your-slider').slick({
   	  	infinite: true,
         speed: 300,
-        centerPadding: '20px',
+        centerPadding: '19px',
         slidesToShow: 3,
   	    centerMode: true,
   	  	arrows: true,
@@ -19,5 +19,17 @@ $(document).ready(function(){
   	  	 	  	
   
   	  });
+
+      $('.your-twitter').slick({
+        infinite: true,
+        speed: 300,
+        
+        slidesToShow: 1,
+        
+        arrows: true,
+        
+              
+  
+      });
 });
 	
